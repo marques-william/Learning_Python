@@ -1,6 +1,6 @@
 # Calculadora Python #
-choice = 'S'
-while choice == 'S':
+choice = 's'
+while choice == 's':
     print('-' * 60)
     print('+                       Calculadora                        +')
     print('-' * 60)
