@@ -15,7 +15,7 @@ while choice == 'S':
     print('[9]Raiz³ do número')
     print('-' * 60)
     opc = input('Selecione uma das opções acima para calcular: ')
-        if opc == '1':
+    if opc == '1':
         n1 = float(input('Digite o primeiro número: '))
         n2 = float(input('Digite outro número: '))
         soma = n1 + n2
