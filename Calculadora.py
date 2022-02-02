@@ -16,31 +16,31 @@ while choice == 's':
     print('-' * 60)
     opc = input('Selecione uma das opções acima para calcular: ')
     if opc == '1':
-        n1 = float(input('Digite o primeiro número: '))
+        n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         soma = n1 + n2
         print(f'A soma entre {n1} e {n2} é {soma:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
     elif opc == '2':
-        n1 = float(input('Digite o primeiro número: '))
+        n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         subt = n1 - n2
         print(f'A subtração de {n1} por {n2} é {subt:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
     elif opc == '3':
-        n1 = float(input('Digite o primeiro número: '))
+        n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         mult = n1 * n2
         print(f'A multiplicação de {n1} por {n2} é {mult:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
     elif opc == '4':
-        n1 = float(input('Digite o primeiro número: '))
+        n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         divs = n1 / n2
         print(f'A divisão de {n1} por {n2} é {divs:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
     elif opc == '5':
-        n1 = float(input('Digite o primeiro número: '))
+        n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         modl = n1 % n2
         print(f'O módulo de {n1} por {n2} é {modl:.2f}.')
