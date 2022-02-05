@@ -4,15 +4,15 @@ while choice == 's':
     print('-' * 60)
     print('+                       Calculadora                        +')
     print('-' * 60)
-    print('[1]Adição')
-    print('[2]Subtração')
-    print('[3]Multiplicação')
-    print('[4]Divisão')
-    print('[5]Módulo(resto da divisão)')
-    print('[6]Número²')
-    print('[7]Número³')
-    print('[8]Raiz² do número')
-    print('[9]Raiz³ do número')
+    print('[1]Adição                                                  +')
+    print('[2]Subtração                                               +')
+    print('[3]Multiplicação                                           +')
+    print('[4]Divisão                                                 +')
+    print('[5]Módulo(resto da divisão)                                +')
+    print('[6]Número²                                                 +')
+    print('[7]Número³                                                 +')
+    print('[8]Raiz² do número                                         +')
+    print('[9]Raiz³ do número                                         +')
     print('-' * 60)
 
     opc = input('Selecione uma das opções acima para calcular: ')
@@ -25,11 +25,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
     elif opc == '2':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
@@ -39,11 +34,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
     elif opc == '3':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
@@ -53,11 +43,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
     elif opc == '4':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
@@ -67,11 +52,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clean')
     elif opc == '5':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
@@ -81,11 +61,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
     elif opc == '6':
         n = float(input('Digite o número: '))
         nmqd = n ** 2
@@ -94,11 +69,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clean')
     elif opc == '7':
         n = float(input('Digite o número: '))
         nmcb = n ** 3
@@ -107,11 +77,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
     elif opc == '8':
         n = float(input('Digite o número: '))
         raiz = n ** (1/2)
@@ -120,11 +85,6 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
     elif opc == '9':
         n = float(input('Digite o número: '))
         raiz = n ** (1/3)
@@ -133,9 +93,9 @@ while choice == 's':
         while choice != 's' and choice != 'n':
             print('Opção inválida.')
             choice = input('Deseja realizar outra operação?[s/n] ')
-        import os
-        if os.name == 'nt':
-            os.system('cls')
-        else:
-            os.system('clear')
+    import os
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
 print('Até mais!')
