@@ -14,6 +14,7 @@ while choice == 's':
     print('[8]Raiz² do número')
     print('[9]Raiz³ do número')
     print('-' * 60)
+
     opc = input('Selecione uma das opções acima para calcular: ')
     if opc == '1':
         n1 = float(input('Digite um número: '))
@@ -21,48 +22,120 @@ while choice == 's':
         soma = n1 + n2
         print(f'A soma entre {n1} e {n2} é {soma:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
     elif opc == '2':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         subt = n1 - n2
         print(f'A subtração de {n1} por {n2} é {subt:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
     elif opc == '3':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         mult = n1 * n2
         print(f'A multiplicação de {n1} por {n2} é {mult:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
     elif opc == '4':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         divs = n1 / n2
         print(f'A divisão de {n1} por {n2} é {divs:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clean')
     elif opc == '5':
         n1 = float(input('Digite um número: '))
         n2 = float(input('Digite outro número: '))
         modl = n1 % n2
         print(f'O módulo de {n1} por {n2} é {modl:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
     elif opc == '6':
         n = float(input('Digite o número: '))
         nmqd = n ** 2
         print(f'{n}² é {nmqd:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clean')
     elif opc == '7':
         n = float(input('Digite o número: '))
         nmcb = n ** 3
         print(f'{n}³ é {nmcb:.2f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
     elif opc == '8':
         n = float(input('Digite o número: '))
         raiz = n ** (1/2)
         print(f'A raiz² de {n}, é {raiz:.3f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
     elif opc == '9':
         n = float(input('Digite o número: '))
         raiz = n ** (1/3)
         print(f'A raiz³ de {n}, é {raiz:.3f}.')
         choice = input('Deseja realizar outra operação?[s/n] ')
+        while choice != 's' and choice != 'n':
+            print('Opção inválida.')
+            choice = input('Deseja realizar outra operação?[s/n] ')
+        import os
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')
 print('Até mais!')
