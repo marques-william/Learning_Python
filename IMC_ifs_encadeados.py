@@ -28,5 +28,5 @@ elif imc >= 17:
                     if imc <= 40:
                         msg = '+ Você está com obesidade grau II. Cuide-se!! Revise seu hábitos alimentares'
                     elif imc > 40:
-                        msg = '+ Você está com obesidade grau III. Vá ao nutricionista!'
+                        msg = '+ Você está com obesidade grau III. Vá ao médico!'
 print(msg)
